@@ -1,0 +1,50 @@
+2018-07-07 23:47:09 INFO  CourseController:28 - Entered getAllCourses()  URI:/course Method:GET
+2018-07-07 23:47:09 INFO  CourseService:29 - getAllCourses() executed successfully, 5 Courses were returned
+2018-07-07 23:47:34 INFO  CourseController:40 - Entered saveCourse(Course [id=0, course_name=C#, year=3, hours=3])  URI:/course Method:POST
+2018-07-07 23:47:34 INFO  CourseService:58 - Save(Course [id=8, course_name=C#, year=3, hours=3]) was succesful
+2018-07-07 23:47:41 INFO  CourseController:34 - Entered getCourseById(8)  URI:/course/{id} Method:GET
+2018-07-07 23:47:41 INFO  CourseService:46 - findById(8) executed successfully, returned: Course [id=8, course_name=C#, year=3, hours=3]
+2018-07-07 23:47:46 INFO  CourseController:28 - Entered getAllCourses()  URI:/course Method:GET
+2018-07-07 23:47:46 INFO  CourseService:29 - getAllCourses() executed successfully, 6 Courses were returned
+2018-07-07 23:48:19 INFO  CourseController:46 - Entered updateCourse(Course [id=3, course_name=Python 3, year=2, hours=3])  URI:/course Method:PUT
+2018-07-07 23:48:19 INFO  CourseService:73 - update(Course [id=3, course_name=Python 3, year=2, hours=3]) was successful
+2018-07-07 23:48:24 INFO  CourseController:28 - Entered getAllCourses()  URI:/course Method:GET
+2018-07-07 23:48:24 INFO  CourseService:29 - getAllCourses() executed successfully, 6 Courses were returned
+2018-07-07 23:48:49 INFO  CourseController:40 - Entered saveCourse(Course [id=0, course_name=Javascript, year=4, hours=3])  URI:/course Method:POST
+2018-07-07 23:48:49 INFO  CourseService:58 - Save(Course [id=9, course_name=Javascript, year=4, hours=3]) was succesful
+2018-07-07 23:48:53 INFO  CourseController:28 - Entered getAllCourses()  URI:/course Method:GET
+2018-07-07 23:48:53 INFO  CourseService:29 - getAllCourses() executed successfully, 7 Courses were returned
+2018-07-07 23:49:09 INFO  CourseController:52 - Entered deleteCourse(6)  URI:/course/{id} Method:DELETE
+2018-07-07 23:49:09 INFO  CourseService:91 - deleteById(6) was successful
+2018-07-07 23:49:12 INFO  CourseController:28 - Entered getAllCourses()  URI:/course Method:GET
+2018-07-07 23:49:12 INFO  CourseService:29 - getAllCourses() executed successfully, 6 Courses were returned
+2018-07-07 23:50:04 INFO  StudentController:36 - Entered getAll()  URI:/students Method:GET
+2018-07-07 23:50:04 INFO  studentService:41 - getAll() executed successfully, 0 Students were returned
+2018-07-07 23:52:27 INFO  StudentController:48 - Entered saveCourse(Student [id=0, student_name=Coldavin mcVain, year=1, hours=17, major=English] , 3)  URI:/course/{courseId}/students Method:POST
+2018-07-07 23:52:27 INFO  studentService:63 - Save(Student [id=1, student_name=Coldavin mcVain, year=1, hours=17, major=English]) was succesful
+2018-07-07 23:52:32 INFO  StudentController:36 - Entered getAll()  URI:/students Method:GET
+2018-07-07 23:52:32 INFO  studentService:41 - getAll() executed successfully, 1 Students were returned
+2018-07-07 23:53:36 INFO  StudentController:48 - Entered saveCourse(Student [id=0, student_name=Funior Bamavic, year=3, hours=95, major=Math] , 3)  URI:/course/{courseId}/students Method:POST
+2018-07-07 23:53:36 INFO  studentService:63 - Save(Student [id=2, student_name=Funior Bamavic, year=3, hours=95, major=Math]) was succesful
+2018-07-07 23:54:14 INFO  StudentController:48 - Entered saveCourse(Student [id=0, student_name=Hanslen Gamilesh, year=2, hours=50, major=Computer Engineering] , 1)  URI:/course/{courseId}/students Method:POST
+2018-07-07 23:54:14 INFO  studentService:63 - Save(Student [id=3, student_name=Hanslen Gamilesh, year=2, hours=50, major=Computer Engineering]) was succesful
+2018-07-07 23:55:00 INFO  StudentController:48 - Entered saveCourse(Student [id=0, student_name=Cumen theraven, year=1, hours=30, major=Computer Engineering] , 4)  URI:/course/{courseId}/students Method:POST
+2018-07-07 23:55:01 INFO  studentService:63 - Save(Student [id=4, student_name=Cumen theraven, year=1, hours=30, major=Computer Engineering]) was succesful
+2018-07-07 23:55:05 INFO  StudentController:36 - Entered getAll()  URI:/students Method:GET
+2018-07-07 23:55:05 INFO  studentService:41 - getAll() executed successfully, 4 Students were returned
+2018-07-07 23:55:14 INFO  StudentController:30 - Entered getAllStudents(3)  URI:/course/{courseId}/students Method:GET
+2018-07-07 23:55:14 INFO  studentService:28 - getAllStudents(3) was successful, 2 Studensts were returned
+2018-07-07 23:55:20 INFO  StudentController:42 - Entered getStudentById(1)  URI:/course/{courseId}/students/{id} Method:GET
+2018-07-07 23:55:20 INFO  studentService:50 - getStudentById(1) executed successfully, student: Student [id=1, student_name=Coldavin mcVain, year=1, hours=17, major=English]
+2018-07-07 23:55:23 INFO  StudentController:42 - Entered getStudentById(3)  URI:/course/{courseId}/students/{id} Method:GET
+2018-07-07 23:55:23 INFO  studentService:50 - getStudentById(3) executed successfully, student: Student [id=3, student_name=Hanslen Gamilesh, year=2, hours=50, major=Computer Engineering]
+2018-07-07 23:55:27 INFO  StudentController:42 - Entered getStudentById(2)  URI:/course/{courseId}/students/{id} Method:GET
+2018-07-07 23:55:27 INFO  studentService:50 - getStudentById(2) executed successfully, student: Student [id=2, student_name=Funior Bamavic, year=3, hours=95, major=Math]
+2018-07-07 23:56:19 INFO  StudentController:55 - Entered updateStudent(Student [id=2, student_name=Funior Bamavic, year=3, hours=100, major=Math] , 3)  URI:/course/{courseId}/students/{id} Method:PUT
+2018-07-07 23:56:19 INFO  studentService:78 - update(Student [id=2, student_name=Funior Bamavic, year=3, hours=100, major=Math]) was successful
+2018-07-07 23:56:29 INFO  StudentController:36 - Entered getAll()  URI:/students Method:GET
+2018-07-07 23:56:29 INFO  studentService:41 - getAll() executed successfully, 4 Students were returned
+2018-07-07 23:57:13 INFO  StudentController:62 - Entered deleteStudent(4)  URI:/course/{courseId}/students/{id} Method:DELETE
+2018-07-07 23:57:13 INFO  studentService:96 - deleteById(4) was successful
+2018-07-07 23:57:19 INFO  StudentController:36 - Entered getAll()  URI:/students Method:GET
+2018-07-07 23:57:19 INFO  studentService:41 - getAll() executed successfully, 3 Students were returned
